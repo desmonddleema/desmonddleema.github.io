@@ -26,6 +26,20 @@ body {
   color: white;
   width: 100%;
 }
+.display-hover {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  margin: 20px;
+  padding: 10px;
+  width: 100%;
+}
+.display-hover-row1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .landing-alternate {
   display: none;
 }
@@ -495,3 +509,49 @@ img {
     transform: scaleX(1.5);
   }
 }
+
+.flick {
+  opacity: 0.3;
+  animation: flicker 3.5s ease-in-out infinite;
+}
+
+.flick1 {
+  animation: flicker 3.5s ease-in-out infinite;
+}
+
+@keyframes flicker {
+  0% {
+    display: inline;
+  }
+  20% {
+    display: inline;
+  }
+  40% {
+    display: none;
+  }
+  60% {
+    display: none;
+  }
+  80% {
+    display: inline;
+  }
+  100% {
+    display: inline;
+  }
+}
+
+/* 0% {
+  display: none;
+}
+25% {
+  display: block;
+}
+50% {
+  display: none;
+}
+75% {
+  display: block;
+}
+100% {
+  display: none;
+} */
