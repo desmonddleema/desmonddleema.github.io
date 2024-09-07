@@ -1,8 +1,8 @@
 import React from "react";
 
-import { BallCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
-import { technologies } from "../constants";
+import { BallCanvas } from "./canvas/index.js";
+import { SectionWrapper } from "../hoc/index.js";
+import { technologies } from "../constants/index.js";
 
 const Tech = () => {
   return (

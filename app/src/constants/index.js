@@ -11,7 +11,7 @@ import {
   git,
   tes,
   avysh,
-} from "../assets";
+} from "../assets/index.js";
 
 export const navLinks = [
   {
