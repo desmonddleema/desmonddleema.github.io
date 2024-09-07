@@ -1,6 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 
 import { About, Experience, Hero, Navbar, Tech } from "./components/index.js";
+import "./index.css";
 
 const App = () => {
   return (
